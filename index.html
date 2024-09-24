@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logog.png" alt="Spotify logo">
+            <b>Spotify</b>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best featured Songs On Billboard</h1>
+        <div class="songList">
+            <div class="songItems">
+                <img src="sza.png" alt="cover">
+                <span>Good Days</span>
+                <span>4:39</span>
+                <span><i id="0" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+            <div class="songItems">
+                <img src="sa.jpeg" alt="cover">
+                <span>Dusk Till Dawn</span>
+                <span>4:27</span>
+                <span><i id="1" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+            <div class="songItems">
+                <img src="kend.png" alt="cover">
+                <span>Shape of You</span>
+                <span>4:23</span>
+                <span><i id="2" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+            <div class="songItems">
+                <img src="s.jpeg" alt="cover">
+                <span>Hymn for the Weekend</span>
+                <span>4:23</span>
+                <span><i id="3" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+            <div class="songItems">
+                <img src="smiths2.jpeg" alt="cover">
+                <span>There is a Light That Never Goes Out</span>
+                <span>2:13</span>
+                <span><i id="4" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+            <div class="songItems">
+                <img src="imp.jpeg" alt="cover">
+                <span>Borderline</span>
+                <span>4:53</span>
+                <span><i id="5" class="fa-solid playSong fa-2x fa-play"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="timestamps">
+            <span id="current-time">0:00</span>
+            <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+            <span id="duration-time">4:20</span>
+        </div>
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-2x fa-backward"></i>
+            <i class="fa-solid fa-2x fa-play" id="masterplay"></i>
+            <i id="next" class="fa-solid fa-2x fa-forward"></i>
+        </div>
+        <div class="gif">
+            <img src="wave.gif" alt="nothing" id="gif1">
+            <span id="SongName1">Open Arms</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/5e47931814.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
